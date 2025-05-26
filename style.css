@@ -53,7 +53,7 @@ header a {
 
 }
 .top img {
-max-widht: 900px;
+max-widht: auto;
     max-height: auto;
   object-fit: cover;
   display: block;
