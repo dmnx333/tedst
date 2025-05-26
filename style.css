@@ -21,19 +21,25 @@ header a {
     text-decoration: none;
 }
 .text {
-position: absolute;
+  position: absolute;
   top: 50%;
-  right: 10%; /* zamiast left */
-  transform: translateY(-50%); /* tylko w pionie – zostaje */
+  right: 10%;
+  transform: translateY(-50%);
   color: white;
   background: rgba(0, 0, 0, 0);
   padding: 20px 30px;
   border-radius: 8px;
   max-width: 80%;
   font-size: medium;
-margin-bottom:8px;
+  line-height: 1.2;
   text-shadow: 0 2px 4px rgba(0,0,0,0.6);
-  text-align: right; /* dodatkowo, jeśli chcesz tekst wyrównany do prawej */
+  text-align: right;
+}
+
+.text h2,
+.text p {
+  margin: 0;
+  margin-bottom: 4px;
 }
 .top button{
     font-size: large;
