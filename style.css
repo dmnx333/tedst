@@ -73,8 +73,8 @@ position: absolute;
 }
 
 #baner {
-  width: auto;
-  height: auto;
+  width: 100px;
+  height: 100px;
   padding: 20px;
   text-align: center;
   background-color: #b9c7d8;
