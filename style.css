@@ -1,5 +1,7 @@
 * {
     font-family: 'Times New Roman', Times, serif;
+    max-width: 100%;
+    max-height: 100%;
 }
 body {
 background-color: #CBD3DB;
@@ -19,17 +21,18 @@ header a {
     text-decoration: none;
 }
 .text {
-  position: absolute;
+position: absolute;
   top: 50%;
-  left: 10%;
-  transform: translateY(-50%);
+  right: 10%; /* zamiast left */
+  transform: translateY(-50%); /* tylko w pionie – zostaje */
   color: white;
   background: rgba(0, 0, 0, 0);
   padding: 20px 30px;
   border-radius: 8px;
   max-width: 80%;
-  font-size: 2rem;
+  font-size: auto;
   text-shadow: 0 2px 4px rgba(0,0,0,0.6);
+  text-align: right; /* dodatkowo, jeśli chcesz tekst wyrównany do prawej */
 }
 .top button{
     font-size: large;
@@ -53,8 +56,8 @@ header a {
 
 }
 .top img {
-max-widht: 500px;
-    max-height: 500px;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
   display: block;
 }
@@ -74,15 +77,15 @@ max-widht: 500px;
   height: auto;
   padding: 20px;
   text-align: center;
-  background-color: #f9f9f9;
+  background-color: #b9c7d8;
   border-radius: 12px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   cursor: pointer;
   transition: transform 0.3s ease;
 }
 #baner img {
-    max-height: 100px;
-    max-width: 100px;
+    max-height: 300px;
+    max-width: auto;
 }
 #baner:hover {
   transform: scale(1.05);
