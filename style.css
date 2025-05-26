@@ -30,7 +30,7 @@ position: absolute;
   padding: 20px 30px;
   border-radius: 8px;
   max-width: 80%;
-  font-size: auto;
+  font-size: medium;
   text-shadow: 0 2px 4px rgba(0,0,0,0.6);
   text-align: right; /* dodatkowo, jeśli chcesz tekst wyrównany do prawej */
 }
