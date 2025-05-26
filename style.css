@@ -22,7 +22,7 @@ header a {
 }
 .text {
   position: absolute;
-  top: 47%;
+  top: 40%;
   right: 10%;
   transform: translateY(-50%);
   color: white;
