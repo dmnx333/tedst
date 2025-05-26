@@ -73,8 +73,9 @@ position: absolute;
 }
 
 #baner {
-  width: 100px;
-  height: 100px;
+    font-size: medium;
+  width: 120px;
+  height: 120px;
   padding: 20px;
   text-align: center;
   background-color: #b9c7d8;
@@ -83,6 +84,17 @@ position: absolute;
   cursor: pointer;
   transition: transform 0.3s ease;
 }
+#baner img {
+  width: 100%;
+  display: block;
+  margin-bottom: 4px; /* zmniejsza odstęp pod zdjęciem */
+}
+
+#baner p {
+  margin: 0; /* usuwa domyślny margines góra/dół */
+  font-size: 0.95rem;
+}
+
 #baner img {
     max-height: 300px;
     max-width: auto;
