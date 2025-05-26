@@ -81,8 +81,8 @@ header a {
   transition: transform 0.3s ease;
 }
 #baner img {
-    max-height: auto;
-    max-width: auto;
+    max-height: 300px;
+    max-width: 300px;
 }
 #baner:hover {
   transform: scale(1.05);
