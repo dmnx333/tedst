@@ -31,7 +31,7 @@ position: absolute;
   border-radius: 8px;
   max-width: 80%;
   font-size: medium;
-  line-height: 10px;
+margin-bottom:10px;
   text-shadow: 0 2px 4px rgba(0,0,0,0.6);
   text-align: right; /* dodatkowo, jeśli chcesz tekst wyrównany do prawej */
 }
